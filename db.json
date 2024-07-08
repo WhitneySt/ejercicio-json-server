@@ -1,0 +1,939 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Camiseta básica",
+            "precioUnitario": 10.99,
+            "cantidadEnStock": {
+                "S": 20,
+                "M": 15,
+                "L": 10,
+                "XL": 5
+            },
+            "descripcion": "Camiseta de algodón 100%, disponible en varios colores.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/retrato-feliz-guapo-joven-posar-aislado-plano-fondo_1150-63507.jpg?t=st=1720213035~exp=1720216635~hmac=4bdd135b862c044a7e5a9b40f975ac03b242a5ce1d42bc69f6b76c260486139f&w=360",
+                "https://img.freepik.com/foto-gratis/retrato-feliz-guapo-joven-posar-aislado-plano-fondo_1150-63507.jpg?t=st=1720213035~exp=1720216635~hmac=4bdd135b862c044a7e5a9b40f975ac03b242a5ce1d42bc69f6b76c260486139f&w=360",
+                "https://img.freepik.com/foto-gratis/retrato-feliz-guapo-joven-posar-aislado-plano-fondo_1150-63507.jpg?t=st=1720213035~exp=1720216635~hmac=4bdd135b862c044a7e5a9b40f975ac03b242a5ce1d42bc69f6b76c260486139f&w=360",
+                "https://img.freepik.com/foto-gratis/retrato-feliz-guapo-joven-posar-aislado-plano-fondo_1150-63507.jpg?t=st=1720213035~exp=1720216635~hmac=4bdd135b862c044a7e5a9b40f975ac03b242a5ce1d42bc69f6b76c260486139f&w=360",
+                "https://img.freepik.com/foto-gratis/retrato-feliz-guapo-joven-posar-aislado-plano-fondo_1150-63507.jpg?t=st=1720213035~exp=1720216635~hmac=4bdd135b862c044a7e5a9b40f975ac03b242a5ce1d42bc69f6b76c260486139f&w=360"
+            ],
+            "puntuacion": 4.5,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Pantalones jeans",
+            "precioUnitario": 29.99,
+            "cantidadEnStock": {
+                "32": 10,
+                "34": 8,
+                "36": 5,
+                "38": 2
+            },
+            "descripcion": "Jeans de corte clásico para uso diario.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/hermosa-mujer-jeans_171337-11956.jpg?t=st=1720212069~exp=1720215669~hmac=26a04084b3b11e3c37c9cc48448578683dd7053d9dc08950bc84204404ec1742&w=360",
+                "https://img.freepik.com/foto-gratis/hermosa-mujer-jeans_171337-11956.jpg?t=st=1720212069~exp=1720215669~hmac=26a04084b3b11e3c37c9cc48448578683dd7053d9dc08950bc84204404ec1742&w=360",
+                "https://img.freepik.com/foto-gratis/hermosa-mujer-jeans_171337-11956.jpg?t=st=1720212069~exp=1720215669~hmac=26a04084b3b11e3c37c9cc48448578683dd7053d9dc08950bc84204404ec1742&w=360",
+                "https://img.freepik.com/foto-gratis/hermosa-mujer-jeans_171337-11956.jpg?t=st=1720212069~exp=1720215669~hmac=26a04084b3b11e3c37c9cc48448578683dd7053d9dc08950bc84204404ec1742&w=360",
+                "https://img.freepik.com/foto-gratis/hermosa-mujer-jeans_171337-11956.jpg?t=st=1720212069~exp=1720215669~hmac=26a04084b3b11e3c37c9cc48448578683dd7053d9dc08950bc84204404ec1742&w=360"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Smartphone X",
+            "precioUnitario": 699.99,
+            "cantidadEnStock": 25,
+            "descripcion": "Smartphone con pantalla de 6.5 pulgadas, 128GB de almacenamiento.",
+            "imagenes": [
+                "https://img.freepik.com/vector-gratis/smartphone-fondo-degradado_23-2147846500.jpg?t=st=1720213241~exp=1720216841~hmac=6a98b265bee64cf7054c58482f004e2f7c06efecdc36c19e232e3c057e7c0b6d&w=740",
+                "https://img.freepik.com/vector-gratis/smartphone-fondo-degradado_23-2147846500.jpg?t=st=1720213241~exp=1720216841~hmac=6a98b265bee64cf7054c58482f004e2f7c06efecdc36c19e232e3c057e7c0b6d&w=740",
+                "https://img.freepik.com/vector-gratis/smartphone-fondo-degradado_23-2147846500.jpg?t=st=1720213241~exp=1720216841~hmac=6a98b265bee64cf7054c58482f004e2f7c06efecdc36c19e232e3c057e7c0b6d&w=740",
+                "https://img.freepik.com/vector-gratis/smartphone-fondo-degradado_23-2147846500.jpg?t=st=1720213241~exp=1720216841~hmac=6a98b265bee64cf7054c58482f004e2f7c06efecdc36c19e232e3c057e7c0b6d&w=740",
+                "https://img.freepik.com/vector-gratis/smartphone-fondo-degradado_23-2147846500.jpg?t=st=1720213241~exp=1720216841~hmac=6a98b265bee64cf7054c58482f004e2f7c06efecdc36c19e232e3c057e7c0b6d&w=740"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "Laptop Pro",
+            "precioUnitario": 1199.99,
+            "cantidadEnStock": 10,
+            "descripcion": "Laptop con procesador i7, 16GB RAM, 512GB SSD.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/ordenador-portatil-pantalla-colorida-sobre-fondo-blanco-renderizado-3d_1142-54662.jpg?t=st=1720213313~exp=1720216913~hmac=cb98001d831cdfc8dae24b8d1d20bd8a534297f380f14e5348935a6f045a3890&w=740",
+                "https://img.freepik.com/foto-gratis/ordenador-portatil-pantalla-colorida-sobre-fondo-blanco-renderizado-3d_1142-54662.jpg?t=st=1720213313~exp=1720216913~hmac=cb98001d831cdfc8dae24b8d1d20bd8a534297f380f14e5348935a6f045a3890&w=740",
+                "https://img.freepik.com/foto-gratis/ordenador-portatil-pantalla-colorida-sobre-fondo-blanco-renderizado-3d_1142-54662.jpg?t=st=1720213313~exp=1720216913~hmac=cb98001d831cdfc8dae24b8d1d20bd8a534297f380f14e5348935a6f045a3890&w=740",
+                "https://img.freepik.com/foto-gratis/ordenador-portatil-pantalla-colorida-sobre-fondo-blanco-renderizado-3d_1142-54662.jpg?t=st=1720213313~exp=1720216913~hmac=cb98001d831cdfc8dae24b8d1d20bd8a534297f380f14e5348935a6f045a3890&w=740",
+                "https://img.freepik.com/foto-gratis/ordenador-portatil-pantalla-colorida-sobre-fondo-blanco-renderizado-3d_1142-54662.jpg?t=st=1720213313~exp=1720216913~hmac=cb98001d831cdfc8dae24b8d1d20bd8a534297f380f14e5348935a6f045a3890&w=740"
+            ],
+            "puntuacion": 4.9,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 5,
+            "nombre": "Auriculares inalámbricos",
+            "precioUnitario": 59.99,
+            "cantidadEnStock": 30,
+            "descripcion": "Auriculares con cancelación de ruido y batería de larga duración.",
+            "imagenes": [
+                "https://img.freepik.com/psd-gratis/auriculares-tecnologicos-aislados_23-2151209619.jpg?t=st=1720212401~exp=1720216001~hmac=97c8c06aaa1dc284a1451d7001d36e76567c594edb7f5c5b5d6ddb742b83a42e&w=900",
+                "https://img.freepik.com/psd-gratis/auriculares-tecnologicos-aislados_23-2151209619.jpg?t=st=1720212401~exp=1720216001~hmac=97c8c06aaa1dc284a1451d7001d36e76567c594edb7f5c5b5d6ddb742b83a42e&w=900",
+                "https://img.freepik.com/psd-gratis/auriculares-tecnologicos-aislados_23-2151209619.jpg?t=st=1720212401~exp=1720216001~hmac=97c8c06aaa1dc284a1451d7001d36e76567c594edb7f5c5b5d6ddb742b83a42e&w=900",
+                "https://img.freepik.com/psd-gratis/auriculares-tecnologicos-aislados_23-2151209619.jpg?t=st=1720212401~exp=1720216001~hmac=97c8c06aaa1dc284a1451d7001d36e76567c594edb7f5c5b5d6ddb742b83a42e&w=900",
+                "https://img.freepik.com/psd-gratis/auriculares-tecnologicos-aislados_23-2151209619.jpg?t=st=1720212401~exp=1720216001~hmac=97c8c06aaa1dc284a1451d7001d36e76567c594edb7f5c5b5d6ddb742b83a42e&w=900"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 6,
+            "nombre": "Paleta de sombras",
+            "precioUnitario": 25.99,
+            "cantidadEnStock": 50,
+            "descripcion": "Paleta de sombras con 12 tonos vibrantes y duraderos.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/vista-paleta-sombras-ojos-polvo-cosmetico_23-2150260878.jpg?t=st=1720213557~exp=1720217157~hmac=69b8f0df480ac6a707cffc8e5400d33b4149571120981d9ddd98ef72575aa43f&w=900",
+                "https://img.freepik.com/foto-gratis/vista-paleta-sombras-ojos-polvo-cosmetico_23-2150260878.jpg?t=st=1720213557~exp=1720217157~hmac=69b8f0df480ac6a707cffc8e5400d33b4149571120981d9ddd98ef72575aa43f&w=900",
+                "https://img.freepik.com/foto-gratis/vista-paleta-sombras-ojos-polvo-cosmetico_23-2150260878.jpg?t=st=1720213557~exp=1720217157~hmac=69b8f0df480ac6a707cffc8e5400d33b4149571120981d9ddd98ef72575aa43f&w=900",
+                "https://img.freepik.com/foto-gratis/vista-paleta-sombras-ojos-polvo-cosmetico_23-2150260878.jpg?t=st=1720213557~exp=1720217157~hmac=69b8f0df480ac6a707cffc8e5400d33b4149571120981d9ddd98ef72575aa43f&w=900",
+                "https://img.freepik.com/foto-gratis/vista-paleta-sombras-ojos-polvo-cosmetico_23-2150260878.jpg?t=st=1720213557~exp=1720217157~hmac=69b8f0df480ac6a707cffc8e5400d33b4149571120981d9ddd98ef72575aa43f&w=900"
+            ],
+            "puntuacion": 4.4,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 7,
+            "nombre": "Serum facial",
+            "precioUnitario": 19.99,
+            "cantidadEnStock": 40,
+            "descripcion": "Serum facial con vitamina C para una piel radiante.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/vista-lateral-mujer-joven-usando-suero_23-2149887532.jpg?t=st=1720213675~exp=1720217275~hmac=c3807c65365664c5a29fdfe29456fd87c8f495aaae9416dda2eb365d8022f4fd&w=900",
+                "https://img.freepik.com/foto-gratis/vista-lateral-mujer-joven-usando-suero_23-2149887532.jpg?t=st=1720213675~exp=1720217275~hmac=c3807c65365664c5a29fdfe29456fd87c8f495aaae9416dda2eb365d8022f4fd&w=900",
+                "https://img.freepik.com/foto-gratis/vista-lateral-mujer-joven-usando-suero_23-2149887532.jpg?t=st=1720213675~exp=1720217275~hmac=c3807c65365664c5a29fdfe29456fd87c8f495aaae9416dda2eb365d8022f4fd&w=900",
+                "https://img.freepik.com/foto-gratis/vista-lateral-mujer-joven-usando-suero_23-2149887532.jpg?t=st=1720213675~exp=1720217275~hmac=c3807c65365664c5a29fdfe29456fd87c8f495aaae9416dda2eb365d8022f4fd&w=900",
+                "https://img.freepik.com/foto-gratis/vista-lateral-mujer-joven-usando-suero_23-2149887532.jpg?t=st=1720213675~exp=1720217275~hmac=c3807c65365664c5a29fdfe29456fd87c8f495aaae9416dda2eb365d8022f4fd&w=900"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 8,
+            "nombre": "Manzanas rojas",
+            "precioUnitario": 1.99,
+            "cantidadEnStock": 100,
+            "descripcion": "Manzanas rojas frescas y crujientes.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/deliciosas-manzanas-rojas-estudio_23-2150811031.jpg?t=st=1720213784~exp=1720217384~hmac=c024b398fcdda2595841033e5de0a37726bd58e8d19ab1cac34d2476a05663ad&w=360",
+                "https://img.freepik.com/foto-gratis/deliciosas-manzanas-rojas-estudio_23-2150811031.jpg?t=st=1720213784~exp=1720217384~hmac=c024b398fcdda2595841033e5de0a37726bd58e8d19ab1cac34d2476a05663ad&w=360",
+                "https://img.freepik.com/foto-gratis/deliciosas-manzanas-rojas-estudio_23-2150811031.jpg?t=st=1720213784~exp=1720217384~hmac=c024b398fcdda2595841033e5de0a37726bd58e8d19ab1cac34d2476a05663ad&w=360",
+                "https://img.freepik.com/foto-gratis/deliciosas-manzanas-rojas-estudio_23-2150811031.jpg?t=st=1720213784~exp=1720217384~hmac=c024b398fcdda2595841033e5de0a37726bd58e8d19ab1cac34d2476a05663ad&w=360",
+                "https://img.freepik.com/foto-gratis/deliciosas-manzanas-rojas-estudio_23-2150811031.jpg?t=st=1720213784~exp=1720217384~hmac=c024b398fcdda2595841033e5de0a37726bd58e8d19ab1cac34d2476a05663ad&w=360"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "frutas frescas"
+            ]
+        },
+        {
+            "id": 9,
+            "nombre": "Peras",
+            "precioUnitario": 2.49,
+            "cantidadEnStock": 80,
+            "descripcion": "Peras frescas y jugosas.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/peras-cesta-vista-angulo-alto-blanco-papel-cocina_176474-8682.jpg?t=st=1720213909~exp=1720217509~hmac=4d6376f36eb74a4032a81fe1256fcb7f55a32cbc1388075460b52a53592beb33&w=360",
+                "https://img.freepik.com/foto-gratis/peras-cesta-vista-angulo-alto-blanco-papel-cocina_176474-8682.jpg?t=st=1720213909~exp=1720217509~hmac=4d6376f36eb74a4032a81fe1256fcb7f55a32cbc1388075460b52a53592beb33&w=360",
+                "https://img.freepik.com/foto-gratis/peras-cesta-vista-angulo-alto-blanco-papel-cocina_176474-8682.jpg?t=st=1720213909~exp=1720217509~hmac=4d6376f36eb74a4032a81fe1256fcb7f55a32cbc1388075460b52a53592beb33&w=360",
+                "https://img.freepik.com/foto-gratis/peras-cesta-vista-angulo-alto-blanco-papel-cocina_176474-8682.jpg?t=st=1720213909~exp=1720217509~hmac=4d6376f36eb74a4032a81fe1256fcb7f55a32cbc1388075460b52a53592beb33&w=360",
+                "https://img.freepik.com/foto-gratis/peras-cesta-vista-angulo-alto-blanco-papel-cocina_176474-8682.jpg?t=st=1720213909~exp=1720217509~hmac=4d6376f36eb74a4032a81fe1256fcb7f55a32cbc1388075460b52a53592beb33&w=360"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "frutas frescas"
+            ]
+        },
+        {
+            "id": 10,
+            "nombre": "Melón",
+            "precioUnitario": 3.99,
+            "cantidadEnStock": 50,
+            "descripcion": "Melones frescos y dulces.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/melon-japones-o-melon-melon-fruta-temporada-concepto-salud_1150-23364.jpg?t=st=1720214009~exp=1720217609~hmac=15132b37c5829784bce440175c3dd94449ce9aabe4ece3d99e52e90c220923c7&w=360",
+                "https://img.freepik.com/foto-gratis/melon-japones-o-melon-melon-fruta-temporada-concepto-salud_1150-23364.jpg?t=st=1720214009~exp=1720217609~hmac=15132b37c5829784bce440175c3dd94449ce9aabe4ece3d99e52e90c220923c7&w=360",
+                "https://img.freepik.com/foto-gratis/melon-japones-o-melon-melon-fruta-temporada-concepto-salud_1150-23364.jpg?t=st=1720214009~exp=1720217609~hmac=15132b37c5829784bce440175c3dd94449ce9aabe4ece3d99e52e90c220923c7&w=360",
+                "https://img.freepik.com/foto-gratis/melon-japones-o-melon-melon-fruta-temporada-concepto-salud_1150-23364.jpg?t=st=1720214009~exp=1720217609~hmac=15132b37c5829784bce440175c3dd94449ce9aabe4ece3d99e52e90c220923c7&w=360",
+                "https://img.freepik.com/foto-gratis/melon-japones-o-melon-melon-fruta-temporada-concepto-salud_1150-23364.jpg?t=st=1720214009~exp=1720217609~hmac=15132b37c5829784bce440175c3dd94449ce9aabe4ece3d99e52e90c220923c7&w=360"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "frutas frescas"
+            ]
+        },
+        {
+            "id": 11,
+            "nombre": "Vestido de verano",
+            "precioUnitario": 35.99,
+            "cantidadEnStock": {
+                "S": 5,
+                "M": 10,
+                "L": 8,
+                "XL": 4
+            },
+            "descripcion": "Vestido ligero y cómodo para el verano.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/joven-mujer-caucasica-feliz-vestido-verano-rayas-colores-pelo-corto-rizado-gafas-sol-vacaciones-pais-calido-exotico_343596-2919.jpg?t=st=1720214106~exp=1720217706~hmac=79dbe3a07fe58d2d6b0fc151be5481d6ac8918897c4fb6404804e516687c830b&w=360",
+                "https://img.freepik.com/foto-gratis/joven-mujer-caucasica-feliz-vestido-verano-rayas-colores-pelo-corto-rizado-gafas-sol-vacaciones-pais-calido-exotico_343596-2919.jpg?t=st=1720214106~exp=1720217706~hmac=79dbe3a07fe58d2d6b0fc151be5481d6ac8918897c4fb6404804e516687c830b&w=360",
+                "https://img.freepik.com/foto-gratis/joven-mujer-caucasica-feliz-vestido-verano-rayas-colores-pelo-corto-rizado-gafas-sol-vacaciones-pais-calido-exotico_343596-2919.jpg?t=st=1720214106~exp=1720217706~hmac=79dbe3a07fe58d2d6b0fc151be5481d6ac8918897c4fb6404804e516687c830b&w=360",
+                "https://img.freepik.com/foto-gratis/joven-mujer-caucasica-feliz-vestido-verano-rayas-colores-pelo-corto-rizado-gafas-sol-vacaciones-pais-calido-exotico_343596-2919.jpg?t=st=1720214106~exp=1720217706~hmac=79dbe3a07fe58d2d6b0fc151be5481d6ac8918897c4fb6404804e516687c830b&w=360",
+                "https://img.freepik.com/foto-gratis/joven-mujer-caucasica-feliz-vestido-verano-rayas-colores-pelo-corto-rizado-gafas-sol-vacaciones-pais-calido-exotico_343596-2919.jpg?t=st=1720214106~exp=1720217706~hmac=79dbe3a07fe58d2d6b0fc151be5481d6ac8918897c4fb6404804e516687c830b&w=360"
+            ],
+            "puntuacion": 4.3,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 12,
+            "nombre": "Reloj inteligente",
+            "precioUnitario": 199.99,
+            "cantidadEnStock": 15,
+            "descripcion": "Reloj inteligente con monitor de salud y notificaciones.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/cerrar-mano-usando-smartwatch_23-2149161256.jpg?t=st=1720214252~exp=1720217852~hmac=c38eb28d8404d862fd8abcb4f7b2c7c7a54303035fe7a5b4366de42c0e1f1457&w=900",
+                "https://img.freepik.com/foto-gratis/cerrar-mano-usando-smartwatch_23-2149161256.jpg?t=st=1720214252~exp=1720217852~hmac=c38eb28d8404d862fd8abcb4f7b2c7c7a54303035fe7a5b4366de42c0e1f1457&w=900",
+                "https://img.freepik.com/foto-gratis/cerrar-mano-usando-smartwatch_23-2149161256.jpg?t=st=1720214252~exp=1720217852~hmac=c38eb28d8404d862fd8abcb4f7b2c7c7a54303035fe7a5b4366de42c0e1f1457&w=900",
+                "https://img.freepik.com/foto-gratis/cerrar-mano-usando-smartwatch_23-2149161256.jpg?t=st=1720214252~exp=1720217852~hmac=c38eb28d8404d862fd8abcb4f7b2c7c7a54303035fe7a5b4366de42c0e1f1457&w=900",
+                "https://img.freepik.com/foto-gratis/cerrar-mano-usando-smartwatch_23-2149161256.jpg?t=st=1720214252~exp=1720217852~hmac=c38eb28d8404d862fd8abcb4f7b2c7c7a54303035fe7a5b4366de42c0e1f1457&w=900"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 13,
+            "nombre": "Zapatillas deportivas",
+            "precioUnitario": 49.99,
+            "cantidadEnStock": {
+                "38": 10,
+                "39": 15,
+                "40": 8,
+                "41": 5,
+                "42": 7
+            },
+            "descripcion": "Zapatillas deportivas cómodas y duraderas.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/par-entrenadores_144627-3799.jpg?t=st=1720214345~exp=1720217945~hmac=f26c37592a71ab29cb0c9eb52865d902257b9d0a726e7d5d7df45ac8cbd9ae19&w=740",
+                "https://img.freepik.com/foto-gratis/par-entrenadores_144627-3799.jpg?t=st=1720214345~exp=1720217945~hmac=f26c37592a71ab29cb0c9eb52865d902257b9d0a726e7d5d7df45ac8cbd9ae19&w=740",
+                "https://img.freepik.com/foto-gratis/par-entrenadores_144627-3799.jpg?t=st=1720214345~exp=1720217945~hmac=f26c37592a71ab29cb0c9eb52865d902257b9d0a726e7d5d7df45ac8cbd9ae19&w=740",
+                "https://img.freepik.com/foto-gratis/par-entrenadores_144627-3799.jpg?t=st=1720214345~exp=1720217945~hmac=f26c37592a71ab29cb0c9eb52865d902257b9d0a726e7d5d7df45ac8cbd9ae19&w=740",
+                "https://img.freepik.com/foto-gratis/par-entrenadores_144627-3799.jpg?t=st=1720214345~exp=1720217945~hmac=f26c37592a71ab29cb0c9eb52865d902257b9d0a726e7d5d7df45ac8cbd9ae19&w=740"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 14,
+            "nombre": "Tinte para cabello",
+            "precioUnitario": 14.99,
+            "cantidadEnStock": 25,
+            "descripcion": "Tinte para cabello de larga duración.",
+            "imagenes": [
+                "https://img.freepik.com/foto-gratis/opciones-tono-cabello_144627-8861.jpg?t=st=1720214432~exp=1720218032~hmac=bd80b2883aefdbf7e6ed25de20dbd2fed623bf580cb9d3fde1fad5946b2a6a29&w=900",
+                "https://img.freepik.com/foto-gratis/opciones-tono-cabello_144627-8861.jpg?t=st=1720214432~exp=1720218032~hmac=bd80b2883aefdbf7e6ed25de20dbd2fed623bf580cb9d3fde1fad5946b2a6a29&w=900",
+                "https://img.freepik.com/foto-gratis/opciones-tono-cabello_144627-8861.jpg?t=st=1720214432~exp=1720218032~hmac=bd80b2883aefdbf7e6ed25de20dbd2fed623bf580cb9d3fde1fad5946b2a6a29&w=900",
+                "https://img.freepik.com/foto-gratis/opciones-tono-cabello_144627-8861.jpg?t=st=1720214432~exp=1720218032~hmac=bd80b2883aefdbf7e6ed25de20dbd2fed623bf580cb9d3fde1fad5946b2a6a29&w=900",
+                "https://img.freepik.com/foto-gratis/opciones-tono-cabello_144627-8861.jpg?t=st=1720214432~exp=1720218032~hmac=bd80b2883aefdbf7e6ed25de20dbd2fed623bf580cb9d3fde1fad5946b2a6a29&w=900"
+            ],
+            "puntuacion": 4.5,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 15,
+            "nombre": "Mascarilla facial",
+            "precioUnitario": 5.99,
+            "cantidadEnStock": 60,
+            "descripcion": "Mascarilla facial hidratante y rejuvenecedora.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 16,
+            "nombre": "Tablet 10 pulgadas",
+            "precioUnitario": 299.99,
+            "cantidadEnStock": 20,
+            "descripcion": "Tablet de 10 pulgadas con 64GB de almacenamiento.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 17,
+            "nombre": "PC Gamer",
+            "precioUnitario": 1599.99,
+            "cantidadEnStock": 5,
+            "descripcion": "PC Gamer con procesador i9, 32GB RAM, 1TB SSD, RTX 3080.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.9,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 18,
+            "nombre": "Colorete",
+            "precioUnitario": 12.99,
+            "cantidadEnStock": 40,
+            "descripcion": "Colorete en crema de larga duración.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.5,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 19,
+            "nombre": "Chaqueta de cuero",
+            "precioUnitario": 79.99,
+            "cantidadEnStock": {
+                "S": 5,
+                "M": 10,
+                "L": 8,
+                "XL": 3
+            },
+            "descripcion": "Chaqueta de cuero auténtico, perfecta para el invierno.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 20,
+            "nombre": "Sombrero de playa",
+            "precioUnitario": 15.99,
+            "cantidadEnStock": 30,
+            "descripcion": "Sombrero de playa elegante y cómodo.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.4,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 21,
+            "nombre": "Serum antiarrugas",
+            "precioUnitario": 24.99,
+            "cantidadEnStock": 35,
+            "descripcion": "Serum antiarrugas con efecto lifting.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 22,
+            "nombre": "Piña",
+            "precioUnitario": 2.99,
+            "cantidadEnStock": 70,
+            "descripcion": "Piña fresca y dulce.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "frutas frescas"
+            ]
+        },
+        {
+            "id": 23,
+            "nombre": "Mouse inalámbrico",
+            "precioUnitario": 29.99,
+            "cantidadEnStock": 40,
+            "descripcion": "Mouse inalámbrico ergonómico y preciso.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 24,
+            "nombre": "Lima de uñas",
+            "precioUnitario": 3.99,
+            "cantidadEnStock": 100,
+            "descripcion": "Lima de uñas de alta calidad.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 25,
+            "nombre": "Maleta de viaje",
+            "precioUnitario": 99.99,
+            "cantidadEnStock": 15,
+            "descripcion": "Maleta de viaje resistente y espaciosa.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.5,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 26,
+            "nombre": "Set de brochas",
+            "precioUnitario": 20.99,
+            "cantidadEnStock": 50,
+            "descripcion": "Set de brochas de maquillaje de alta calidad.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 27,
+            "nombre": "Gafas de sol",
+            "precioUnitario": 25.99,
+            "cantidadEnStock": 30,
+            "descripcion": "Gafas de sol con protección UV400.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 28,
+            "nombre": "Cargador portátil",
+            "precioUnitario": 19.99,
+            "cantidadEnStock": 25,
+            "descripcion": "Cargador portátil de 10000mAh.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 29,
+            "nombre": "Falda plisada",
+            "precioUnitario": 29.99,
+            "cantidadEnStock": {
+                "S": 8,
+                "M": 10,
+                "L": 5,
+                "XL": 2
+            },
+            "descripcion": "Falda plisada de estilo clásico.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.3,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 30,
+            "nombre": "Sombra de ojos líquida",
+            "precioUnitario": 9.99,
+            "cantidadEnStock": 40,
+            "descripcion": "Sombra de ojos líquida de alta pigmentación.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 31,
+            "nombre": "Zapatos formales",
+            "precioUnitario": 59.99,
+            "cantidadEnStock": {
+                "40": 5,
+                "41": 7,
+                "42": 3,
+                "43": 2
+            },
+            "descripcion": "Zapatos formales de cuero.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 32,
+            "nombre": "Limpiador facial",
+            "precioUnitario": 15.99,
+            "cantidadEnStock": 45,
+            "descripcion": "Limpiador facial suave y efectivo.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 33,
+            "nombre": "Reloj deportivo",
+            "precioUnitario": 79.99,
+            "cantidadEnStock": 10,
+            "descripcion": "Reloj deportivo con múltiples funciones.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 34,
+            "nombre": "Camisa de manga larga",
+            "precioUnitario": 25.99,
+            "cantidadEnStock": {
+                "S": 12,
+                "M": 8,
+                "L": 10,
+                "XL": 6
+            },
+            "descripcion": "Camisa de manga larga para ocasiones formales.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.4,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 35,
+            "nombre": "Tónico facial",
+            "precioUnitario": 12.99,
+            "cantidadEnStock": 50,
+            "descripcion": "Tónico facial refrescante y revitalizante.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 36,
+            "nombre": "Tablet 7 pulgadas",
+            "precioUnitario": 149.99,
+            "cantidadEnStock": 20,
+            "descripcion": "Tablet de 7 pulgadas con 32GB de almacenamiento.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.5,
+            "categorias": [
+                "electrónicos"
+            ]
+        },
+        {
+            "id": 37,
+            "nombre": "Fresas",
+            "precioUnitario": 2.99,
+            "cantidadEnStock": 60,
+            "descripcion": "Fresas frescas y dulces.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "frutas frescas"
+            ]
+        },
+        {
+            "id": 38,
+            "nombre": "Loción corporal",
+            "precioUnitario": 14.99,
+            "cantidadEnStock": 40,
+            "descripcion": "Loción corporal hidratante para piel seca.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "belleza"
+            ]
+        },
+        {
+            "id": 39,
+            "nombre": "Camiseta básica",
+            "precioUnitario": 12.99,
+            "cantidadEnStock": {
+                "S": {
+                    "blanco": 10,
+                    "negro": 5,
+                    "azul": 3
+                },
+                "M": {
+                    "blanco": 8,
+                    "negro": 7,
+                    "azul": 2
+                },
+                "L": {
+                    "blanco": 5,
+                    "negro": 5,
+                    "azul": 1
+                },
+                "XL": {
+                    "blanco": 3,
+                    "negro": 4,
+                    "azul": 0
+                }
+            },
+            "descripcion": "Camiseta de algodón 100%, disponible en varios colores.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.5,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 40,
+            "nombre": "Pantalones jeans",
+            "precioUnitario": 39.99,
+            "cantidadEnStock": {
+                "32": {
+                    "azul": 10,
+                    "negro": 5
+                },
+                "34": {
+                    "azul": 8,
+                    "negro": 7
+                },
+                "36": {
+                    "azul": 5,
+                    "negro": 4
+                },
+                "38": {
+                    "azul": 2,
+                    "negro": 3
+                }
+            },
+            "descripcion": "Jeans de corte clásico para uso diario.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.7,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 41,
+            "nombre": "Vestido de verano",
+            "precioUnitario": 45.99,
+            "cantidadEnStock": {
+                "S": {
+                    "rojo": 5,
+                    "verde": 3
+                },
+                "M": {
+                    "rojo": 4,
+                    "verde": 5
+                },
+                "L": {
+                    "rojo": 3,
+                    "verde": 4
+                },
+                "XL": {
+                    "rojo": 2,
+                    "verde": 2
+                }
+            },
+            "descripcion": "Vestido ligero y cómodo para el verano.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.3,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 42,
+            "nombre": "Chaqueta de cuero",
+            "precioUnitario": 99.99,
+            "cantidadEnStock": {
+                "S": {
+                    "negro": 5,
+                    "marrón": 3
+                },
+                "M": {
+                    "negro": 4,
+                    "marrón": 4
+                },
+                "L": {
+                    "negro": 3,
+                    "marrón": 2
+                },
+                "XL": {
+                    "negro": 2,
+                    "marrón": 1
+                }
+            },
+            "descripcion": "Chaqueta de cuero auténtico, perfecta para el invierno.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.8,
+            "categorias": [
+                "fashion"
+            ]
+        },
+        {
+            "id": 43,
+            "nombre": "Zapatillas deportivas",
+            "precioUnitario": 59.99,
+            "cantidadEnStock": {
+                "38": {
+                    "blanco": 5,
+                    "negro": 3
+                },
+                "39": {
+                    "blanco": 4,
+                    "negro": 4
+                },
+                "40": {
+                    "blanco": 3,
+                    "negro": 2
+                },
+                "41": {
+                    "blanco": 2,
+                    "negro": 1
+                },
+                "42": {
+                    "blanco": 1,
+                    "negro": 1
+                }
+            },
+            "descripcion": "Zapatillas deportivas cómodas y duraderas.",
+            "imagenes": [
+                "https://hellocreatividad.com/app/uploads/2022/03/foto-producto_mr-wonderful-edited.png",
+                "https://paulafotografia.com/wp-content/uploads/2021/10/Paula-Rauber-Fotografa-Sant-Cugat-79.jpg",
+                "https://cdn0.bodas.net/article-vendor/02524/3_2/1280/jpg/joyeria-unicas-alianzas-personalizadas-catalogo-anillos-de-compromiso-13_1_102524-162081085942285.webp",
+                "https://img.freepik.com/fotos-premium/anillos-bodas-oro-atributos-simbolos-boda-celebracion-vacaciones-detalles-boda-concepto-familia-feliz-celebracion-pareja-matrimonio-juntos_527096-14085.jpg",
+                "https://img.freepik.com/fotos-premium/anillos-boda-flores_266785-1432.jpg"
+            ],
+            "puntuacion": 4.6,
+            "categorias": [
+                "fashion"
+            ]
+        }
+    ],
+    "categorias": [
+        {
+            "id": 1,
+            "nombre": "fashion",
+            "color": "#2082EBFF",
+            "imagen": "43cf9fc3-6983-4a0e-9e3b-42b3f2e6bc03.png"
+        },
+        {
+            "id": 2,
+            "nombre": "electrónicos",
+            "color": "#41B029FF",
+            "imagen": "d94d5548-a986-402e-8672-89b865467231.png"
+        },
+        {
+            "id": 3,
+            "nombre": "frutas frescas",
+            "color": "#EB235FFF",
+            "imagen": "cfea583b-645d-4434-8ad0-207d09b6f531.png"
+        },
+        {
+            "id": 4,
+            "nombre": "belleza",
+            "color": "#EBAE11FF",
+            "imagen": "106dec02-06fb-48d9-9b0d-b6e1b6a4f0e7.png"
+        }
+    ],
+    "registroCompras": []
+}
